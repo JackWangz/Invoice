@@ -1,0 +1,21 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.left-container{
+	height: 100%; width: 60%;
+}
+
+.right-container{
+	height: 500px; width: 40%;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p{
+	color: #F00;
+	width: 200px; height: 10px;
+	font-size: 28px;
+}

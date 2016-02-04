@@ -1,0 +1,16 @@
+<h1>發票兌獎樂</h1>
+<h2>{{date}}</h2>
+<div id="div-table">
+	<table>
+		<tr>
+			<th>獎項</th>
+			<th>號碼</th>
+			<th style="min-width: 500px;">描述</th>
+		</tr>
+		<tr class="tr-prize" ng-repeat='prize in prizes'>
+			<td>{{prize.Title}}</td>
+			<td>{{prize.Number}}</td>
+			<td>{{prize.Des}}</td>
+		</tr>
+	</table>
+</div>
